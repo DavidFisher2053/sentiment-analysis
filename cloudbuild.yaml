@@ -10,7 +10,7 @@ steps:
     [
       "gcloud", "run", "deploy", "sentimientos",
       "--image", "gcr.io/$PROJECT_ID/sentimientos",
-      "--region", "us-central1",
+      "--region", "us-east1",
       "--platform", "managed",
       "--allow-unauthenticated"
     ]
